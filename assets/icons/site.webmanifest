@@ -1,0 +1,41 @@
+{
+  "name": "Huddle Landing Page | FEM",
+  "short_name": "Huddle Landing Page",
+  "icons": [
+    {
+      "src": "https://horoserp.github.io/huddle-landing-page/assets/icons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://horoserp.github.io/huddle-landing-page/assets/icons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://horoserp.github.io/huddle-landing-page/assets/images/desktop-screenshot.jpeg",
+      "sizes": "1440x802",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Huddle Landing Page Desktop"
+    },
+    {
+      "src": "https://horoserp.github.io/huddle-landing-page/assets/images/mobile-screenshot.jpeg",
+        "sizes": "375x827",
+        "type": "image/png",
+        "form_factor": "narrow",
+        "label": "Huddle Landing Page Mobile"
+      }
+    ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "description": "Huddle Landing Page.",
+  "start_url": ".",
+  "id": "/assets/icons/",
+  "orientation": "any"
+}
