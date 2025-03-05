@@ -126,6 +126,16 @@ body {
   border-radius: 0.5rem;
 }
 
+@media (hover: hover) {
+  .submit:hover {
+    background-color: var(--Blue);
+  }
+
+  .agreement:hover {
+    color: var(--Blue);
+  }
+}
+
 .submit:active {
   background-color: var(--Bright-Green);
 }
@@ -140,6 +150,14 @@ body {
   background-color: white;
   font-size: 0.7rem;
   border: none;
+}
+
+.agreement:active {
+  color: var(--Green);
+}
+
+:where(.submit, .agreement) {
+  cursor: pointer;
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
