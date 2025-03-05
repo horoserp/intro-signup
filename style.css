@@ -92,7 +92,6 @@ body {
   margin-bottom: 1.6rem;
   line-height: 1.5;
   border-radius: 0.5rem;
-  box-shadow: 0 0.5rem color-mix(in hsl, var(--Dark-Blue) 20%, transparent);
 }
 
 .trial {
@@ -103,6 +102,10 @@ body {
   background-color: white;
   padding: 1.8rem;
   border-radius: 0.5rem;
+}
+
+:where(.signup-offer, .signup-form) {
+  box-shadow: 0 0.5rem color-mix(in hsl, var(--Dark-Blue) 20%, transparent);
 }
 
 .input {
@@ -147,8 +150,15 @@ body {
 @media only screen and (min-width: 600px) and (max-width: 767px) {
 }
 
-/* Medium devices [iPad Mini] (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* Medium devices [iPad Mini] (landscape tablets, 768px and up to 991px) */
+@media only screen and (min-width: 768px) {
+  .flex {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    min-height: 100vh;
+    margin: 0 8rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
