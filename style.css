@@ -42,6 +42,9 @@
   /* Neutral */
   --Dark-Blue: hsl(249, 10%, 26%);
   --Grayish-Blue: hsl(246, 25%, 77%);
+
+  /* Active */
+  --Bright-Green: hsl(154, 59%, 70%);
 }
 
 html {
@@ -118,6 +121,10 @@ body {
   text-transform: uppercase;
   border: 1px solid green;
   border-radius: 0.5rem;
+}
+
+.submit:active {
+  background-color: var(--Bright-Green);
 }
 
 .terms {
