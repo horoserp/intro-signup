@@ -58,6 +58,80 @@ html {
   width: 1px;
 }
 
+body {
+  background-image: url(./assets/images/bg-intro-mobile.png);
+  background-color: var(--Red);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin: 6rem 2rem;
+  text-align: center;
+}
+
+.content-heading {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.content-text {
+  color: color-mix(in srgb, white 80%, transparent);
+  margin-bottom: 4rem;
+}
+
+.signup-offer {
+  background-color: var(--Blue);
+  color: var(--Grayish-Blue);
+  padding: 1.4rem 4rem;
+  margin-bottom: 1.6rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem color-mix(in hsl, var(--Dark-Blue) 20%, transparent);
+}
+
+.trial {
+  color: white;
+}
+
+.signup-form {
+  background-color: white;
+  padding: 1.8rem;
+  border-radius: 0.5rem;
+}
+
+.input {
+  width: 100%;
+  color: var(--Grayish-Blue);
+  margin-bottom: 1rem;
+  padding: 1rem 0.8rem;
+  border: 1px solid var(--Grayish-Blue);
+  border-radius: 0.5rem;
+}
+
+.submit {
+  background-color: var(--Green);
+  color: color-mix(in srgb, white 80%, transparent);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 1px solid green;
+  border-radius: 0.5rem;
+}
+
+.terms {
+  color: var(--Grayish-Blue);
+  font-size: 0.7rem;
+}
+
+.agreement {
+  color: var(--Red);
+  background-color: white;
+  font-size: 0.7rem;
+  border: none;
+}
+
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
