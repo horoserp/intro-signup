@@ -110,17 +110,31 @@ body {
 
 .input {
   width: 100%;
-  color: var(--Grayish-Blue);
-  margin-bottom: 1rem;
   padding: 1rem 0.8rem;
   border: 1px solid var(--Grayish-Blue);
   border-radius: 0.5rem;
+}
+
+.input.invalid {
+  color: var(--Red);
+  border: 1px solid var(--Red);
+}
+
+.error {
+  height: 2rem;
+  color: var(--Red);
+  font-style: italic;
+  text-align: right;
+  padding-top: 0.3rem;
+  padding-right: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .submit {
   background-color: var(--Green);
   color: color-mix(in srgb, white 80%, transparent);
   font-size: 0.9rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   border: 1px solid green;
   border-radius: 0.5rem;
@@ -175,7 +189,7 @@ body {
   }
 
   .content {
-    max-width: 50%;
+    width: 50%;
     text-align: left;
   }
 
@@ -187,6 +201,10 @@ body {
 
   .content-text {
     font-size: 1.2rem;
+  }
+
+  .signup {
+    width: 50%;
   }
 }
 
@@ -206,7 +224,7 @@ body {
   }
 
   .content-heading {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .content-text {

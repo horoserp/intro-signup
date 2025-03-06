@@ -83,51 +83,61 @@
             and aria-haspopup="false" to stop autofill popup and
             LastPass boxes from showing.
         -->
-        <form class="signup-form" autocomplete="off">
+        <form
+          class="signup-form"
+          id="my-form"
+          onsubmit="return false"
+          autocomplete="off"
+        >
           <label for="fname" class="sr-only">First Name</label>
           <input
             type="text"
             class="input validate poppins-semibold"
             id="fname"
-            name="fname"
+            name="First Name"
             placeholder="First Name"
             autocomplete="off"
             aria-autocomplete="both"
             aria-haspopup="false"
           />
+          <div class="error"></div>
           <label for="lname" class="sr-only">Last Name</label>
           <input
             type="text"
             class="input validate poppins-semibold"
             id="lname"
-            name="lname"
+            name="Last Name"
             placeholder="Last Name"
             autocomplete="off"
             aria-autocomplete="both"
             aria-haspopup="false"
           />
+          <div class="error"></div>
           <label for="email" class="sr-only">Email Address</label>
+          <!-- Set type as text as I do not want browser validation -->
           <input
-            type="email"
+            type="text"
             class="input validate poppins-semibold"
             id="email"
-            name="email"
+            name="Email"
             placeholder="Email Address"
             autocomplete="off"
             aria-autocomplete="both"
             aria-haspopup="false"
           />
+          <div class="error"></div>
           <label for="pword" class="sr-only">Password</label>
           <input
             type="password"
             class="input validate poppins-semibold"
             id="pword"
-            name="pword"
+            name="Password"
             placeholder="Password"
             autocomplete="off"
             aria-autocomplete="both"
             aria-haspopup="false"
           />
+          <div class="error"></div>
           <input
             type="submit"
             class="input submit poppins-medium"
@@ -135,7 +145,9 @@
           />
           <p class="terms poppins-regular">
             By clicking the button, you are agreeing to our
-            <button class="agreement poppins-bold">Terms and Services</button>
+            <button class="agreement poppins-bold" onclick="terms()">
+              Terms and Services
+            </button>
           </p>
         </form>
       </div>
