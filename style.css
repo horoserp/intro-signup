@@ -118,6 +118,7 @@ body {
 .input.invalid {
   color: var(--Red);
   border: 1px solid var(--Red);
+  background: url(./assets/images/icon-error.svg) no-repeat 95% 50%;
 }
 
 .error {
