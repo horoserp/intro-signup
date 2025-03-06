@@ -47,6 +47,7 @@ function allowSubmit() {
         inputs[3].value +
         "."
     );
+    form.reset();
   }
 }
 
