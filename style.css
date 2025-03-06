@@ -176,7 +176,7 @@ body {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1015px) {
   body {
     background-image: url(./assets/images/bg-intro-desktop.png);
   }
@@ -225,7 +225,7 @@ body {
   }
 
   .content-heading {
-    font-size: 5rem;
+    font-size: 4.2rem;
   }
 
   .content-text {
