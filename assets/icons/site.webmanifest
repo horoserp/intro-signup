@@ -17,15 +17,15 @@
   ],
   "screenshots": [
     {
-      "src": "https://horoserp.github.io/intro-signup/assets/images/desktop-design.jpg",
+      "src": "https://horoserp.github.io/intro-signup/assets/images/desktop-screenshot.jpeg",
       "sizes": "1440x800",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Signup Form Desktop"
     },
     {
-      "src": "https://horoserp.github.io/intro-signup/assets/images/mobile-design.jpg",
-        "sizes": "375x1000",
+      "src": "https://horoserp.github.io/intro-signup/assets/images/mobile-screenshot.jpeg",
+        "sizes": "490x1127",
         "type": "image/png",
         "form_factor": "narrow",
         "label": "Signup Form Mobile"
